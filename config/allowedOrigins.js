@@ -1,6 +1,5 @@
 const allowedOrigins = [
-    'https://officeflow.vercel.app/',
-    'https://officeflow.onrender.com/'
+    'https://officeflow.vercel.app/'
 ]
 
 module.exports = allowedOrigins
