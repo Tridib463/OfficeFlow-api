@@ -19,7 +19,7 @@ connectDB()
 app.use(logger)
 
 app.use(cors({
-    origin: 'https://officeflow.vercel.app/',
+    origin: 'https://officeflow.vercel.app',
     credentials: true,
 }));
 
