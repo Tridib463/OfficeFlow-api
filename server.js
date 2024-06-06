@@ -15,7 +15,7 @@ const PORT = process.env.PORT || 3500
 console.log(process.env.NODE_ENV)
 
 connectDB()
-
+2
 app.use(logger)
 
 app.use(cors({
@@ -23,7 +23,7 @@ app.use(cors({
     credentials: true,
 }));
 
-app.use(express.json())
+app.use(express.json())     
 
 app.use(cookieParser())
 
